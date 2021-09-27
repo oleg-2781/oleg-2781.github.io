@@ -1,0 +1,131 @@
+.wrapper {
+    display: grid;
+/*    grid-template-columns: repeat(3, 1fr); */
+    grid-gap: 2px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+.first_line {
+    grid-column: 1;
+    grid-row: 1;
+    background-color: none;
+  }
+.second_line {
+    grid-column: 1;
+    grid-row: 2;
+    background-color: none;
+    text-align: center;
+    color: rgb(70, 54, 158);
+  }
+.third_line {
+    grid-column: 1;
+    grid-row: 3;
+    background-color: none;
+    text-align: center;
+  }
+.fourth_line {
+    grid-column: 1;
+    grid-row: 4;
+    background-color: none;
+    text-align: center;
+  }
+.fifth_line {
+    grid-column: 1;
+    grid-row: 5;
+    background-color: none;
+    text-align: center;
+  }
+.box {
+    display: flex;
+    justify-content: space-between;
+  }
+.tbl {
+  padding: 0px;
+  border-spacing: 20px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-weight: normal;
+}
+.tbl a:hover {
+  text-decoration: underline;
+}
+
+.advtable {
+  padding: 0px;
+}
+.tbl a {
+  text-decoration: none;
+}
+.tbl a:link {
+  color: black;
+}
+.tbl a:visited {
+  color: black;
+}
+.inpform {
+  border-radius: 18px;
+  height: 2em;
+  padding: 4px;
+  background-image: url(pics/lens.png);
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  border: 1px solid #dfe1e5;
+}
+.inpform:hover {
+  box-shadow: 0px 0px 3px 1px #c6c7c9;
+  outline: none; 
+}
+.colon01 {
+  width: 20%;
+  text-align: left;
+}
+.colon02 {
+  width: auto;
+}
+.colon03 {
+  width: 20%;
+  text-align: left;
+}
+.as {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-weight: normal;
+}
+.button {
+  height: 30px;
+  background: #4b8dfa;
+  color: white;
+  min-width: 120px;
+  line-height: 100%;
+  border-radius: 2px;
+  font-size: 11px;
+  font-weight: bold;
+  border-width: 0px;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+.buttitle:hover {
+  box-shadow: 0px 0px 3px 1px #dfe1e5;
+  outline: none;
+}
+.buttitle:focus {
+  outline-color: cornflowerblue;
+}
+.buttitle {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
